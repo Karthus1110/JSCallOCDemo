@@ -1,0 +1,24 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <script>
+            function buttonClick1()
+            {
+                // 方法一
+                 var token = getMessage();
+
+                alert(token)
+            }
+            function buttonClick2()
+            {
+                // 方法二
+                var token = JavaScriptInterface.tipMessage();
+            
+                alert(token)
+            }
+            </script>
+        <button id="abc" onclick="buttonClick1()">function 1</button>
+        <button id="abcd" onclick="buttonClick2()">function 2</button>
+    </body>
+</html>
